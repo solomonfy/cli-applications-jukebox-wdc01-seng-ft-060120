@@ -52,7 +52,6 @@ def play(songs)
   user_input = gets.chomp
   count = 0
   selected_song = songs[count]
-  # selected_number = songs[count].to_i
   if user_input == selected_song
     puts "Playing #{selected_song}"
   elsif user_input.to_i >= 1 && songs.length >= user_input.to_i
