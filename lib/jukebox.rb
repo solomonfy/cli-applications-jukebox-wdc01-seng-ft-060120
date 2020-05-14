@@ -28,25 +28,6 @@ def help
 end
 
 
-# def play(songs)
-#   puts "Please enter a song name or number:"
-#   user_input = gets.chomp
-#   songs.each do |song|
-#   songs.each do |song_number|.to_i
-#     if user_input == song
-#       puts "Playing #{song}"
-#     elsif user_input.to_i == song_number
-#       puts "Playing #{song_number}"
-#     elsif user_input != song
-#     return "Invalid input, please try again"
-#     # elsif user_input.to_i != song
-#     #   puts "Invalid input, please try again"
-#   end
-#   end
-# end
-# end
-
-
 def play(songs)
   puts "Please enter a song name or number:"
   user_input = gets.chomp
